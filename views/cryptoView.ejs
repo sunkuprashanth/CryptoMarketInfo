@@ -1,0 +1,10 @@
+<%coins_arr.forEach((coin) => {%>
+	<div class="col-lg-3 card card-custom m-5">
+		<div class="card-body">
+		<h4 class="text-center pb-3"><%=coin.name%></h4>
+		<p class="card-text">Symbol:  <%=coin.symbol%></p>
+		<p class="card-text">Value:  <%=Math.floor(coin.price)%> INR</p>
+		<p class="card-text pb-2">Market Supply:  <%=coin.market_supply%></p>
+		</div>
+	</div>
+<%})%>

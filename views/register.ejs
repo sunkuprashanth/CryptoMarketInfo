@@ -1,0 +1,20 @@
+<%-include("header.ejs")%>
+	<div class="row">
+		<center>
+			<div class="card col-lg-6 mt-5 pb-5" style="background-color:#adb5bd;">
+				<form class="form" action="/register" method="post">
+					<center>
+						<h4 class="mt-5 mp-3">Register to Crypto Stats</h4>
+						<div class="col-lg-4 mt-4">
+							<input class="form-control" name=name placeholder="Full Name"/><br>
+							<input class="form-control" name=username placeholder="username"/><br>
+							<input class="form-control" type="password" name=password placeholder="Password"/><br>
+							<input class="form-control" type="password" name=c_password placeholder="Confirm Your Password"/><br>
+						</div>
+						<button class="btn btn-dark">Register</button>
+					</center>
+				</form>
+			</div>
+		</center>
+	</div>
+<%-include("footer.ejs")%>

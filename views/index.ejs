@@ -1,0 +1,20 @@
+<%-include("header.ejs")%>	
+	<h1 class="text-center mt-4 mb-5">Welcome to Crypto Market Info</h1>
+	<div class="row">
+		<center>
+			<div class="card col-lg-6" style="background-color:#adb5bd;">
+				<form class="form" action="/login" method="post">
+					<center>
+						<h4 class="mt-5 mp-3">Login to Access your Account</h4>
+						<div class="col-lg-4 mt-4">
+							<input class="form-control" name=username placeholder="Enter Your Username"/><br>
+							<input class="form-control" type="password" name=password placeholder="Enter Your Password"/><br>
+						</div>
+						<button class="btn-dark btn">Login</button>
+					</center>
+				</form>
+				<p class="text-center mt-3 mb-5">New User? <a style="color:#03506f;" href="/register">Register Here</a></p>
+			</div>
+		</center>
+	</div>
+<%-include("footer.ejs")%>
